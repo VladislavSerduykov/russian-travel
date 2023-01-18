@@ -1,10 +1,9 @@
 .footer{
-    display: grid;
+    display: flex;
     max-width: 1184px;
     margin: 92px auto 24px auto;
     gap: 18px;
-    grid-template-columns: repeat(5, max-content) 1fr;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 @media screen and (max-width: 1183px){
@@ -22,8 +21,8 @@
 
 @media screen and (max-width: 767px){
     .footer{
-        grid-template-columns: auto;
-        gap: 32px;
+        flex-direction: column;
+        row-gap: 48px;
     }
 }
 
