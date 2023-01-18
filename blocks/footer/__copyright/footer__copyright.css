@@ -10,7 +10,7 @@
     line-height: 1.14;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px){
     .footer__copyright{
         font-family: 'Inter';
         font-style: normal;
@@ -20,7 +20,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 320px){
     .footer__copyright{
         margin: 16px 0 0 0;
     }
