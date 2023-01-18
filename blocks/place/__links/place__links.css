@@ -1,9 +1,9 @@
-.places__links{
+.place__links{
     align-self: flex-end;
 }
 
 @media screen and (max-width: 320px){
-    .places__links{
+    .place__links{
         max-width: 288px;
         align-self:stretch;
         margin: 0 16px 0 16px;

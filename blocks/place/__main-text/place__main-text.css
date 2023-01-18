@@ -1,5 +1,5 @@
-.places__secondary-text{
-    margin: 26px 0 0 0;
+.place__main-text{
+    margin: 0;
     padding: 0;
     font-family: 'Inter';
     font-style: normal;
@@ -10,8 +10,7 @@
 }
 
 @media screen and (max-width: 768px){
-    .places__text_secondary-text{
+    .place__main-text{
         font-size: 16px;
-        margin: 25px 0 0 0;
     }
 }
